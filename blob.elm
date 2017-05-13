@@ -1,5 +1,4 @@
 import Html exposing (Html, text, div)
---import Html.App as Html
 import Mouse exposing (..)
 import Svg exposing (..)
 import Svg.Attributes exposing (..)
@@ -22,17 +21,8 @@ type alias Model = {
   , mouseY : Int
 }
 
-initialModel: Model
-initialModel =
-  { blobX = 0
-  , blobY = 0
-  , mouseX = 0
-  , mouseY = 0
-  }
-
 init : (Model, Cmd Msg)
-init =
-  (initialModel, Cmd.none)
+init = (Model 0 0 0 0, Cmd.none)
 
 -- UPDATE
 
