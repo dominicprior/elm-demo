@@ -13,8 +13,8 @@ To build and run this program:
 
 * click on the blob.elm link
 
-(I'm not sure if it was necessary, but I also ran things like elm-package install elm-lang/mouse).
+(I'm not sure if it was necessary, but I also ran things like `elm-package install elm-lang/mouse`).
 
-You can also run elm-repl.
+You can also run `elm-repl`.
 
-To make the self-contained html file, I ran elm make blob.elm --output blob.html.
+To make the self-contained html file, I ran `elm make blob.elm --output blob.html`.
