@@ -1,7 +1,7 @@
 # elm-demo
 My first Elm program!
 
-A blob follows the mouse cursor round the screen, demonstrating SVG and mouse and timer events.
+A blob follows the mouse cursor round the screen, demonstrating SVG, and mouse and timer events.
 
 To build and run this program:
 
@@ -12,3 +12,9 @@ To build and run this program:
 * visit the server in a browser on localhost:8000
 
 * click on the blob.elm link
+
+(I'm not sure if it was necessary, but I also ran things like elm-package install elm-lang/mouse).
+
+You can also run elm-repl.
+
+To make the self-contained html file, I ran elm make blob.elm --output blob.html.
