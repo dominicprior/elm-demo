@@ -1,7 +1,7 @@
 # elm-demo
 My first Elm program!
 
-A blob follows the mouse cursor round the screen, demonstrating SVG as well as responding to mouse movements and timers.
+A blob follows the mouse cursor round the screen, demonstrating SVG and mouse and timer events.
 
 To build and run this program:
 
