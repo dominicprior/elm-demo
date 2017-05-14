@@ -1,7 +1,5 @@
-# elm-demo
-My first Elm program!
-
-A blob follows the mouse around the screen, demonstrating SVG, and mouse and timer events.
+## elm-demo
+My first Elm program: a blob following the mouse around the screen, demonstrating SVG, and mouse and timer events.
 
 To build and run this program:
 
@@ -20,3 +18,6 @@ You can also run `elm-repl`.
 To make the self-contained html file, I ran `elm make blob.elm --output elm-blob.html`:
 
 http://dominicprior.github.io/elm-blob.html
+
+## float-demo
+A first attempt at showing Haskell in floating text boxes.  Just a static picture so far.
