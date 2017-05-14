@@ -5,7 +5,7 @@ To build and run this program:
 
 * install Node.js and Elm
 
-* cd to this folder and run elm-reactor (which starts a Node.js server for you)
+* after cloning, cd to this folder and run elm-reactor (which starts a Node.js server for you)
 
 * visit the server in a browser on localhost:8000
 
